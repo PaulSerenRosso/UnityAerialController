@@ -4,19 +4,17 @@ public class AirplaneController : MonoBehaviour
 {
     public InputPlayerActions InputPlayerActions;
 
+    [Header("Components Airplane")]
     [SerializeField] private float throttleIncrement = 0.1f;
     [SerializeField] private float maxThrust = 200f;
     [SerializeField] private float responsiveness = 10f;
     [SerializeField] private Rigidbody rb;
 
     private float responseModifier => (rb.mass / 10f) * responsiveness;
-
     private float throttle;
-    private float xPosition;
-    private float yPosition;
     private Vector2 deltaDirection;
 
-    public void OnEnable()
+    private void OnEnable()
     {
         InputPlayerActions = new InputPlayerActions();
         InputPlayerActions.Enable();
@@ -29,9 +27,9 @@ public class AirplaneController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.AddForce(transform.forward * maxThrust * throttle);
-        rb.AddTorque(-transform.right * deltaDirection.y * responseModifier);
-        rb.AddTorque(-transform.forward * deltaDirection.x * responseModifier);
+        rb.AddForce(transform.forward * maxThrust * throttle, ForceMode.Force);
+        rb.AddTorque(-transform.right * deltaDirection.y * responseModifier, ForceMode.Force);
+        rb.AddTorque(-transform.forward * deltaDirection.x * responseModifier, ForceMode.Force);
     }
 
     private void HandleInputs()
