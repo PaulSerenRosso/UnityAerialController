@@ -425,7 +425,7 @@ PrefabInstance:
     - target: {fileID: 258013752248228873, guid: c248261a033b85d408a2c2377778e515,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.95
+      value: -17.5
       objectReference: {fileID: 0}
     - target: {fileID: 258013752248228873, guid: c248261a033b85d408a2c2377778e515,
         type: 3}
@@ -471,6 +471,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: upPivot.x
+      value: -17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: position.x
+      value: -17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: downPivot.x
+      value: -17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: leftPivot.x
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: rightPivot.x
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: forwardPivot.x
+      value: -17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: backwardPivot.x
+      value: -17.5
       objectReference: {fileID: 0}
     - target: {fileID: 8988608620868825438, guid: c248261a033b85d408a2c2377778e515,
         type: 3}
@@ -759,12 +794,12 @@ PrefabInstance:
     - target: {fileID: 258013752248228873, guid: c248261a033b85d408a2c2377778e515,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.95
+      value: -16.56
       objectReference: {fileID: 0}
     - target: {fileID: 258013752248228873, guid: c248261a033b85d408a2c2377778e515,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7
+      value: 9.18
       objectReference: {fileID: 0}
     - target: {fileID: 258013752248228873, guid: c248261a033b85d408a2c2377778e515,
         type: 3}
@@ -805,6 +840,76 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: upPivot.x
+      value: -16.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: upPivot.y
+      value: 9.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: position.x
+      value: -16.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: position.y
+      value: 9.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: downPivot.x
+      value: -16.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: downPivot.y
+      value: 8.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: leftPivot.x
+      value: -17.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: leftPivot.y
+      value: 9.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: rightPivot.x
+      value: -16.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: rightPivot.y
+      value: 9.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: forwardPivot.x
+      value: -16.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: forwardPivot.y
+      value: 9.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: backwardPivot.x
+      value: -16.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
+        type: 3}
+      propertyPath: backwardPivot.y
+      value: 9.18
       objectReference: {fileID: 0}
     - target: {fileID: 8988608620868825438, guid: c248261a033b85d408a2c2377778e515,
         type: 3}
@@ -879,33 +984,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkPointsBezierControlPoints:
-  - {x: 4.29, y: 0, z: 0}
+  - {x: 4.6, y: 0, z: 0}
   - {x: -4.76, y: 1, z: 0}
   checkPointBezierPoints:
-  - {x: -8.45, y: 6.7, z: 0}
-  - {x: -6.699156, y: 5.752374, z: 0}
-  - {x: -5.255549, y: 4.9179993, z: 0}
-  - {x: -4.099569, y: 4.194625, z: 0}
-  - {x: -3.2116, y: 3.5800002, z: 0}
-  - {x: -2.5720313, y: 3.0718749, z: 0}
-  - {x: -2.16125, y: 2.6680002, z: 0}
-  - {x: -1.9596437, y: 2.3661246, z: 0}
-  - {x: -1.9476001, y: 2.164, z: 0}
-  - {x: -2.1055062, y: 2.0593748, z: 0}
-  - {x: -2.4137502, y: 2.05, z: 0}
-  - {x: -2.8527188, y: 2.133625, z: 0}
-  - {x: -3.4028, y: 2.308, z: 0}
-  - {x: -4.044381, y: 2.5708747, z: 0}
-  - {x: -4.7578497, y: 2.92, z: 0}
-  - {x: -5.523594, y: 3.3531249, z: 0}
-  - {x: -6.3220005, y: 3.868, z: 0}
-  - {x: -7.133456, y: 4.4623747, z: 0}
-  - {x: -7.9383492, y: 5.1339993, z: 0}
-  - {x: -8.717068, y: 5.8806243, z: 0}
+  - {x: -17, y: 6.7, z: 0}
+  - {x: -14.554327, y: 5.9327674, z: 0}
+  - {x: -12.39219, y: 5.2383037, z: 0}
+  - {x: -10.499903, y: 4.6154556, z: 0}
+  - {x: -8.863789, y: 4.0630727, z: 0}
+  - {x: -7.4701605, y: 3.5800002, z: 0}
+  - {x: -6.3053384, y: 3.165088, z: 0}
+  - {x: -5.355643, y: 2.817184, z: 0}
+  - {x: -4.607389, y: 2.535136, z: 0}
+  - {x: -4.046895, y: 2.317792, z: 0}
+  - {x: -3.6604805, y: 2.164, z: 0}
+  - {x: -3.4344623, y: 2.072608, z: 0}
+  - {x: -3.355159, y: 2.0424638, z: 0}
+  - {x: -3.4088888, y: 2.0724158, z: 0}
+  - {x: -3.5819697, y: 2.1613119, z: 0}
+  - {x: -3.8607202, y: 2.308, z: 0}
+  - {x: -4.2314577, y: 2.5113277, z: 0}
+  - {x: -4.6805, y: 2.770144, z: 0}
+  - {x: -5.1941657, y: 3.0832958, z: 0}
+  - {x: -5.758773, y: 3.4496317, z: 0}
+  - {x: -6.3606405, y: 3.868, z: 0}
+  - {x: -6.986084, y: 4.3372474, z: 0}
+  - {x: -7.6214247, y: 4.8562236, z: 0}
+  - {x: -8.252978, y: 5.4237757, z: 0}
+  - {x: -8.8670635, y: 6.0387516, z: 0}
   - {x: -9.45, y: 6.7, z: 0}
   gizmosColor: {r: 1, g: 0.82046974, b: 0, a: 1}
-  curveCount: 2
-  segmentsPerCurve: 20
+  curveCount: 1
+  segmentsPerCurve: 25
   environmentObjectsWithPivotsForThePath:
   - pivotDirection: 0
     environmentObjectIndex: 2
