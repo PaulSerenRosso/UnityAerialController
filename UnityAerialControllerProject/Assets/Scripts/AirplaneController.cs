@@ -8,13 +8,13 @@ public class AirplaneController : MonoBehaviour
     [SerializeField] private float maxThrust = 200f;
     [SerializeField] private float responsiveness = 10f;
     [SerializeField] private Rigidbody rb;
-    [SerializeField] private GameObject renderer;
 
     private float responseModifier => (rb.mass / 10f) * responsiveness;
 
     private float throttle;
     private float xPosition;
     private float yPosition;
+    private Vector2 deltaDirection;
 
     public void OnEnable()
     {
@@ -30,15 +30,14 @@ public class AirplaneController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.AddForce(transform.forward * maxThrust * throttle);
-        rb.AddTorque(-transform.right * xPosition * responseModifier);
-        rb.AddTorque(-transform.forward * yPosition * responseModifier);
+        rb.AddTorque(-transform.right * deltaDirection.y * responseModifier);
+        rb.AddTorque(-transform.forward * deltaDirection.x * responseModifier);
     }
 
     private void HandleInputs()
     {
-        xPosition = InputPlayerActions.Player.Vertical.ReadValue<float>();
-        yPosition = InputPlayerActions.Player.Horizontal.ReadValue<float>();
-        if (xPosition == 0 || yPosition == 0) rb.angularVelocity = Vector3.zero;
+        deltaDirection = InputPlayerActions.Player.Direction.ReadValue<Vector2>();
+        if (deltaDirection == Vector2.zero) rb.angularVelocity = Vector3.zero;
         
         if (InputPlayerActions.Player.Accelerate.IsPressed()) throttle += throttleIncrement;
         else throttle -= throttleIncrement;

@@ -20,6 +20,5 @@ public class CameraFollower : MonoBehaviour
         if (transform.position == target) return;
         transform.position = Vector3.Lerp(transform.position, target, Mathf.Clamp(speed * Time.deltaTime, 0.0f, 1.0f));
         transform.rotation = airplane.transform.rotation;
-        // transform.forward = airplane.transform.forward;
     }
 }
