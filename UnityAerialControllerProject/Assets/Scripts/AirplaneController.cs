@@ -23,8 +23,8 @@ public class AirplaneController : MonoBehaviour
     {
         InputPlayerActions = new InputPlayerActions();
         InputPlayerActions.Enable();
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Confined;
+        // Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Confined;
     }
 
     private void Update()
@@ -57,7 +57,7 @@ public class AirplaneController : MonoBehaviour
         {
             lightAirplane.SetActive(true);
             isLocked = true;
-            Cursor.visible = true;
+            // Cursor.visible = true;
             Vector3 mousePosition = Mouse.current.position.ReadValue();
             mousePosition.z = Camera.main.nearClipPlane;
             Ray rayMouse = Camera.main.ScreenPointToRay(mousePosition); 
@@ -69,7 +69,7 @@ public class AirplaneController : MonoBehaviour
         {
             lightAirplane.SetActive(false);
             isLocked = false;
-            Cursor.visible = false;
+            // Cursor.visible = false;
         }
     }
 }

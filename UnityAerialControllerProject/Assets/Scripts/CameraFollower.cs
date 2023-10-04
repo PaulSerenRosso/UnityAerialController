@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollower : MonoBehaviour
 {
-    public GameObject Airplane;
+    public Transform Airplane;
     [SerializeField] private float camSmoothSpeed = 5f;
     [SerializeField] private Transform cameraHolder;
 
@@ -10,8 +10,8 @@ public class CameraFollower : MonoBehaviour
     {
         // Smoothly rotate the camera to face the mouse aim.
         transform.position = Airplane.transform.position;
-        Vector3 upVec = (Mathf.Abs(Airplane.transform.forward.y) > 0.9f) ? cameraHolder.up : Vector3.up;
-        cameraHolder.rotation = Damp(cameraHolder.rotation, Quaternion.LookRotation(Airplane.transform.forward, upVec), camSmoothSpeed, Time.deltaTime);
+        Vector3 upVec = (Mathf.Abs(Airplane.forward.y) > 0.9f) ? cameraHolder.up : Vector3.up;
+        cameraHolder.rotation = Damp(cameraHolder.rotation, Quaternion.LookRotation(Airplane.forward, upVec), camSmoothSpeed, Time.deltaTime);
     }
     
     private Quaternion Damp(Quaternion a, Quaternion b, float lambda, float dt)
