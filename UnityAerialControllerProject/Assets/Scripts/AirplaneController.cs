@@ -18,6 +18,7 @@ public class AirplaneController : MonoBehaviour
     private float throttle;
     private Vector2 deltaDirection;
     private bool isLocked;
+    [SerializeField] private SpeedParticleContainer speedParticleContainer;
 
     private void OnEnable()
     {
@@ -31,6 +32,7 @@ public class AirplaneController : MonoBehaviour
     {
         HandleInputs();
         HandleLight();
+      //  speedParticleContainer.UpdateParticle(throttle/);
     }
 
     private void FixedUpdate()
