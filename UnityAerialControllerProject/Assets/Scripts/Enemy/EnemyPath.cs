@@ -12,12 +12,12 @@ public class EnemyPath : MonoBehaviour
     [SerializeField] private int curveCount ;
     [SerializeField] private int segmentsPerCurve;
     public EnvironmentObjectWithPivots[] environmentObjectsWithPivotsForThePath;
-    public EnvironmentObject[] allEnvironmentObjects;
+    
     public List<Vector3> CheckPointsBezierPoints
     {
         get => checkPointBezierPoints;
     }
-    public  void OnValidate()
+    public  void CalculatePath(EnvironmentObject[] allEnvironmentObjects)
     {
         curveCount = (checkPointsBezierControlPoints.Length+environmentObjectsWithPivotsForThePath.Length) / 3;
         checkPointBezierPoints.Clear();
@@ -25,11 +25,11 @@ public class EnemyPath : MonoBehaviour
         {
             int nodeIndex = j*2;
             Vector3 firstPosition =
-                allEnvironmentObjects[environmentObjectsWithPivotsForThePath[j].environmentObjectIndex]
-                    .GetPivotPoint(environmentObjectsWithPivotsForThePath[j].pivotDirection);
+                allEnvironmentObjects[environmentObjectsWithPivotsForThePath[nodeIndex].environmentObjectIndex]
+                    .GetPivotPoint(environmentObjectsWithPivotsForThePath[nodeIndex].pivotDirection);
             Vector3 lastPosition =
-                allEnvironmentObjects[environmentObjectsWithPivotsForThePath[j + 1].environmentObjectIndex]
-                    .GetPivotPoint(environmentObjectsWithPivotsForThePath[j + 1].pivotDirection);
+                allEnvironmentObjects[environmentObjectsWithPivotsForThePath[nodeIndex+1].environmentObjectIndex]
+                    .GetPivotPoint(environmentObjectsWithPivotsForThePath[nodeIndex+1].pivotDirection);
             for (int i = 0; i <=  segmentsPerCurve; i++)
             {
                 float t = i / (float)segmentsPerCurve;
@@ -67,6 +67,16 @@ public class EnemyPath : MonoBehaviour
         
         return p;
     }
-    
-  
+
+
+    public void ResetControlPointCurve(int curveIndex)
+    {
+        checkPointsBezierControlPoints[curveIndex*2] = Vector3.Lerp(
+            checkPointBezierPoints[curveIndex*segmentsPerCurve],
+            checkPointBezierPoints[(curveIndex+1)*segmentsPerCurve], 0.5f);
+        checkPointsBezierControlPoints[(curveIndex*2)+1] = Vector3.Lerp(
+            checkPointBezierPoints[curveIndex*segmentsPerCurve],
+            checkPointBezierPoints[(curveIndex+1)*segmentsPerCurve-1], 0.5f);
+        
+    }
 }

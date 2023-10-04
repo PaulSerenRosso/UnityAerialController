@@ -10,18 +10,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private EnemyManager[] enemyPrefabs;
     [SerializeField] private GameObject camera;
-
-    [SerializeField] private EnvironmentObject[] allEnvironmentObjects;
-    [SerializeField] private EnemyPath[] allEnemyPaths;
-    // Start is called before the first frame update
-
-    private void OnValidate()
-    {
-        for (int i = 0; i < allEnemyPaths.Length; i++)
-        {
-            allEnemyPaths[i].allEnvironmentObjects = allEnvironmentObjects;
-        }
-    }
+    public EnvironmentObject[] allEnvironmentObjects;
+    public EnemyPath[] allEnemyPaths;
 
     void Start()
     {

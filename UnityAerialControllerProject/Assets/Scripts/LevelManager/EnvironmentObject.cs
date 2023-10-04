@@ -4,19 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnvironmentObject : MonoBehaviour
-{
-    public Vector3 upPivot;
-    public Vector3 downPivot;
-    public Vector3 leftPivot;
-    public Vector3 rightPivot;
-    public Vector3 forwardPivot;
-    public Vector3 backwardPivot;
-    public Vector3 position;
-    public Vector3 scale;
+{   
+    [SerializeField] Vector3 upPivot;
+    [SerializeField] Vector3 downPivot;
+    [SerializeField] Vector3 leftPivot;
+    [SerializeField] Vector3 rightPivot;
+    [SerializeField] Vector3 forwardPivot;
+    [SerializeField] Vector3 backwardPivot;
 
-    private void OnValidate()
+    public void SetPivots()
     {
-        transform.position = position;
         upPivot = transform.position;
         upPivot.y += transform.lossyScale.y / 2;
         downPivot = transform.position;
@@ -29,12 +26,6 @@ public class EnvironmentObject : MonoBehaviour
         forwardPivot.z += transform.lossyScale.z / 2;
         backwardPivot = transform.position;
         backwardPivot.z += transform.lossyScale.z / 2;
-        Transform currentParent = transform.parent;
-        transform.parent = null;
-        transform.localScale = scale;
-        transform.parent = currentParent;
-
-
     }
     public  Vector3 GetPivotPoint(Direction pivotDirection)
     {

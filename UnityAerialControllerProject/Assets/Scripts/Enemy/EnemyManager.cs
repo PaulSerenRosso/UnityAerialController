@@ -11,7 +11,9 @@ public class EnemyManager : MonoBehaviour, IUpdatable
      public EnemyPath enemyPath;
     private Vector3[] pathPoints;
     private int currentDestinationPointIndex;
-    [SerializeField] private float speed;
+    [SerializeField] private float movementSpeed = 2;
+    [SerializeField] private float rotationTime = 0.2f;
+    [SerializeField] private float rotationTimer = 0;
     private Vector3 currentDirection;
     private float currentDistanceFromDestination;
     private float currentSpeed;
@@ -27,7 +29,7 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     public void OnUpdate()
     {
         currentDistanceFromDestination = (pathPoints[currentDestinationPointIndex] - transform.position).magnitude;
-        currentSpeed = speed * Time.deltaTime;
+        currentSpeed = movementSpeed * Time.deltaTime;
         if (currentSpeed >currentDistanceFromDestination )
         {
             transform.position += currentDirection*currentDistanceFromDestination;
@@ -35,6 +37,11 @@ public class EnemyManager : MonoBehaviour, IUpdatable
         }
         else
         {
+            if (rotationTimer < rotationTime)
+            {
+                  rotationTimer += Time.deltaTime;
+                  transform.forward = Vector3.Lerp(transform.forward, currentDirection, rotationTimer/rotationTime);
+            }
             transform.position += currentDirection * currentSpeed;
         }
        
@@ -43,13 +50,13 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     private void ChooseNewDestinationPoint()
     {  
         currentDestinationPointIndex++;
-      
-            if (currentDestinationPointIndex == pathPoints.Length) 
+        rotationTimer = 0;
+        if (currentDestinationPointIndex == pathPoints.Length) 
             {
                      currentDestinationPointIndex = 1;
             }
             currentDirection= (pathPoints[currentDestinationPointIndex] - pathPoints[currentDestinationPointIndex - 1]).normalized;
-             transform.forward = currentDirection;
+          
     }
 }
     
