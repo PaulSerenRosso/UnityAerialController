@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 2262211892078178639}
   - component: {fileID: 1025131148469697752}
   - component: {fileID: 1731876328016127903}
-  - component: {fileID: 8892639601364157767}
+  - component: {fileID: 593325363223746012}
   m_Layer: 0
   m_Name: Airplane
   m_TagString: Untagged
@@ -454,6 +454,22 @@ MonoBehaviour:
   responsiveness: 20
   rb: {fileID: 1025131148469697752}
   lightAirplane: {fileID: 4517183542908384463}
+--- !u!114 &593325363223746012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5284356371491159146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f351181632c2d94cbe18f63baba91a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShootingPoint: {fileID: 8497286096002152536}
+  KillTimer: 5
+  AimRadius: 4
+  AimDistance: 75
 --- !u!1 &5977641676584183517
 GameObject:
   m_ObjectHideFlags: 0
