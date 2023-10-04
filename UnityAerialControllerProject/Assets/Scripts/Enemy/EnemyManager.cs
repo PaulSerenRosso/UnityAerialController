@@ -58,6 +58,11 @@ public class EnemyManager : MonoBehaviour, IUpdatable
             currentDirection= (pathPoints[currentDestinationPointIndex] - pathPoints[currentDestinationPointIndex - 1]).normalized;
           
     }
+
+    public void Kill()
+    {
+        Debug.Log("Enemy killed.");
+    }
 }
     
 
