@@ -129,6 +129,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7307057973281070719}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &328962307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2262211892078178639, guid: 438baa9cd68ea54479cdd9823db3f741,
+    type: 3}
+  m_PrefabInstance: {fileID: 7307057973281070719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6231163039028454083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -338,6 +344,16 @@ PrefabInstance:
       propertyPath: airplane
       value: 
       objectReference: {fileID: 328962303}
+    - target: {fileID: 4190834802039644337, guid: 1512406df58abb248a4538d28f01616e,
+        type: 3}
+      propertyPath: camSmoothSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190834802039644337, guid: 1512406df58abb248a4538d28f01616e,
+        type: 3}
+      propertyPath: AirplaneTransform
+      value: 
+      objectReference: {fileID: 328962307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

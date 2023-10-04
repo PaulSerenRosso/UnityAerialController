@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour
     {
         airplane = Instantiate(playerPrefab, playerSpawn.position, playerSpawn.rotation);
         camera = Instantiate(cameraFollower);
-        camera.GetComponent<CameraFollower>().Airplane = airplane.transform; 
+        camera.GetComponent<CameraFollower>().AirplaneTransform = airplane.transform; 
         for (int i = 0; i < enemyPrefabs.Length; i++)
         {
            EnemyManager enemyManager = Instantiate(enemyPrefabs[i]);
