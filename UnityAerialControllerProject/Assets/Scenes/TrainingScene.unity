@@ -297,10 +297,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e417a5f3f38f4b0ea92f1587bf5c38dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 02193bedc20d44040a52503a310987f2, type: 2}
+  Material: {fileID: 2100000, guid: 63450c45c96a1084f9030409760502b1, type: 2}
   height: 10
   radius: 5
-  segments: 7
+  segments: 20
 --- !u!4 &620665242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7382386044339912330, guid: 438baa9cd68ea54479cdd9823db3f741,
