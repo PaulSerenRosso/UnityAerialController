@@ -1,21 +1,22 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] private Transform playerSpawn;
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private EnemyManager[] enemyPrefabs;
-    [SerializeField] private GameObject camera;
+    [SerializeField] private GameObject cameraFollower;
     public EnvironmentObject[] allEnvironmentObjects;
     public EnemyPath[] allEnemyPaths;
 
+    private GameObject airplane;
+    private GameObject camera;
+    
     void Start()
     {
-        Instantiate(playerPrefab, playerSpawn.position, playerSpawn.rotation);
+        airplane = Instantiate(playerPrefab, playerSpawn.position, playerSpawn.rotation);
+        camera = Instantiate(cameraFollower);
+        camera.GetComponent<CameraFollower>().Airplane = airplane; 
         for (int i = 0; i < enemyPrefabs.Length; i++)
         {
            EnemyManager enemyManager = Instantiate(enemyPrefabs[i]);

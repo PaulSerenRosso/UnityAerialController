@@ -180,9 +180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throttleIncrement: 0.1
   maxThrust: 200
-  responsiveness: 10
+  responsiveness: 40
   rb: {fileID: 1025131148469697752}
-  cameraHolder: {fileID: 0}
 --- !u!1 &5977641676584183517
 GameObject:
   m_ObjectHideFlags: 0
