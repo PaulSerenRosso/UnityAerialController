@@ -65,6 +65,7 @@ public class ShootingController : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(ShootingPoint.position, AimRadius);
         Gizmos.DrawWireSphere(ShootingPoint.position + ShootingPoint.forward * AimDistance, AimRadius);
     }
 }

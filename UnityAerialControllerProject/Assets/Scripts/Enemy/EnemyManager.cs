@@ -9,6 +9,7 @@ public class EnemyManager : MonoBehaviour, IUpdatable
 {
     public int enemyPathIndex;
      public EnemyPath enemyPath;
+     public Color enemyColor;
     private Vector3[] pathPoints;
     private int currentDestinationPointIndex;
     [SerializeField] private float movementSpeed = 2;
@@ -17,6 +18,8 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     private Vector3 currentDirection;
     private float currentDistanceFromDestination;
     private float currentSpeed;
+
+    
     private void Start()
     {
      UpdateManager.Register(this);
