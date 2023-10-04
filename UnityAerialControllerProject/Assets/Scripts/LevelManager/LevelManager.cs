@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
@@ -6,8 +7,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private EnemyManager[] enemyPrefabs;
     [SerializeField] private GameObject cameraFollower;
+    [SerializeField] private GameObject levelUI;
     public EnvironmentObject[] allEnvironmentObjects;
     public EnemyPath[] allEnemyPaths;
+  
 
     private GameObject airplane;
     private GameObject camera;
@@ -21,8 +24,8 @@ public class LevelManager : MonoBehaviour
         {
            EnemyManager enemyManager = Instantiate(enemyPrefabs[i]);
            enemyManager.enemyPath = allEnemyPaths[enemyPrefabs[i].enemyPathIndex];
+           levelUI.GetComponent<UIManager>().AddEnemyToList(enemyManager.enemyColor);
+               
         }
     }
-
-   
 }
