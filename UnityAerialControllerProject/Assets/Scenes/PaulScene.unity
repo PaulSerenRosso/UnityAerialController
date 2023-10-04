@@ -735,18 +735,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c248261a033b85d408a2c2377778e515, type: 3}
---- !u!114 &612904680 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
-    type: 3}
-  m_PrefabInstance: {fileID: 612904679}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 464de139c4311154a8172a30b02cd128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &795805862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1876,12 +1864,12 @@ PrefabInstance:
         type: 3}
       propertyPath: allEnvironmentObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 612904680}
+      objectReference: {fileID: 795805863}
     - target: {fileID: 8902103349168079646, guid: 986c55e04c3128c4dbddcce00c35969f,
         type: 3}
       propertyPath: allEnvironmentObjects.Array.data[2]
       value: 
-      objectReference: {fileID: 1951377516}
+      objectReference: {fileID: 1832447079}
     - target: {fileID: 8902103349168079646, guid: 986c55e04c3128c4dbddcce00c35969f,
         type: 3}
       propertyPath: allEnvironmentObjects.Array.data[3]
@@ -2005,18 +1993,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c248261a033b85d408a2c2377778e515, type: 3}
---- !u!114 &1951377516 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1739237944529622938, guid: c248261a033b85d408a2c2377778e515,
-    type: 3}
-  m_PrefabInstance: {fileID: 1951377515}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 464de139c4311154a8172a30b02cd128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

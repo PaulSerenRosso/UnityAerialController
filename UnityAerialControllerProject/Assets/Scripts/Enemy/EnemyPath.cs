@@ -21,6 +21,7 @@ public class EnemyPath : MonoBehaviour
     {
         curveCount = (checkPointsBezierControlPoints.Length+environmentObjectsWithPivotsForThePath.Length) / 3;
         checkPointBezierPoints.Clear();
+        
         for (int j = 0; j < curveCount; j++)
         {
             int nodeIndex = j*2;
