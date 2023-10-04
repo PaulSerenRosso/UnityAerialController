@@ -10,7 +10,8 @@ public class CameraFollower : MonoBehaviour
     {
         // Smoothly rotate the camera to face the mouse aim.
         transform.position = airplane.transform.position;
-        cameraHolder.rotation = Damp(cameraHolder.rotation, Quaternion.LookRotation(airplane.transform.forward, cameraHolder.up), camSmoothSpeed, Time.deltaTime);
+        Vector3 upVec = (Mathf.Abs(airplane.transform.forward.y) > 0.9f) ? cameraHolder.up : Vector3.up;
+        cameraHolder.rotation = Damp(cameraHolder.rotation, Quaternion.LookRotation(airplane.transform.forward, upVec), camSmoothSpeed, Time.deltaTime);
     }
     
     private Quaternion Damp(Quaternion a, Quaternion b, float lambda, float dt)

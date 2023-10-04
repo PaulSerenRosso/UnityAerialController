@@ -334,6 +334,11 @@ PrefabInstance:
       propertyPath: cameraHolder
       value: 
       objectReference: {fileID: 381339404}
+    - target: {fileID: 1731876328016127903, guid: 438baa9cd68ea54479cdd9823db3f741,
+        type: 3}
+      propertyPath: responsiveness
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2262211892078178639, guid: 438baa9cd68ea54479cdd9823db3f741,
         type: 3}
       propertyPath: m_LocalPosition.x
