@@ -1,0 +1,54 @@
+{
+    "name": "InputPlayerActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "17b8d86e-d8e7-43e9-8c4a-47e4c0bc3393",
+            "actions": [
+                {
+                    "name": "Direction",
+                    "type": "Value",
+                    "id": "aecc4988-6e4e-4d99-a829-d6235e487ae0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Accelerate",
+                    "type": "Button",
+                    "id": "d2ea83ad-19d3-48e5-a9c4-4a3e0a58b2f9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "44251a45-b5d2-4bb6-b02b-65ef16d088eb",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Direction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1b12e55-936e-4bad-b0f0-b7c867a2fca1",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
