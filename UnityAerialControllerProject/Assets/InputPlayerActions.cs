@@ -44,6 +44,15 @@ public partial class @InputPlayerActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Light"",
+                    ""type"": ""Button"",
+                    ""id"": ""85bdeb0d-a450-4ae3-9fef-91f4094bfec9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -68,6 +77,17 @@ public partial class @InputPlayerActions: IInputActionCollection2, IDisposable
                     ""action"": ""Accelerate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bafb3fb6-a609-44f9-b66d-9cf0b986759a"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Light"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -78,6 +98,7 @@ public partial class @InputPlayerActions: IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Direction = m_Player.FindAction("Direction", throwIfNotFound: true);
         m_Player_Accelerate = m_Player.FindAction("Accelerate", throwIfNotFound: true);
+        m_Player_Light = m_Player.FindAction("Light", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -141,12 +162,14 @@ public partial class @InputPlayerActions: IInputActionCollection2, IDisposable
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Direction;
     private readonly InputAction m_Player_Accelerate;
+    private readonly InputAction m_Player_Light;
     public struct PlayerActions
     {
         private @InputPlayerActions m_Wrapper;
         public PlayerActions(@InputPlayerActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Direction => m_Wrapper.m_Player_Direction;
         public InputAction @Accelerate => m_Wrapper.m_Player_Accelerate;
+        public InputAction @Light => m_Wrapper.m_Player_Light;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -162,6 +185,9 @@ public partial class @InputPlayerActions: IInputActionCollection2, IDisposable
             @Accelerate.started += instance.OnAccelerate;
             @Accelerate.performed += instance.OnAccelerate;
             @Accelerate.canceled += instance.OnAccelerate;
+            @Light.started += instance.OnLight;
+            @Light.performed += instance.OnLight;
+            @Light.canceled += instance.OnLight;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -172,6 +198,9 @@ public partial class @InputPlayerActions: IInputActionCollection2, IDisposable
             @Accelerate.started -= instance.OnAccelerate;
             @Accelerate.performed -= instance.OnAccelerate;
             @Accelerate.canceled -= instance.OnAccelerate;
+            @Light.started -= instance.OnLight;
+            @Light.performed -= instance.OnLight;
+            @Light.canceled -= instance.OnLight;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -193,5 +222,6 @@ public partial class @InputPlayerActions: IInputActionCollection2, IDisposable
     {
         void OnDirection(InputAction.CallbackContext context);
         void OnAccelerate(InputAction.CallbackContext context);
+        void OnLight(InputAction.CallbackContext context);
     }
 }
