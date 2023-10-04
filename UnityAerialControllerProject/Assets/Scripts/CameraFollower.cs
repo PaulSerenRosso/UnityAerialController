@@ -2,16 +2,14 @@ using UnityEngine;
 
 public class CameraFollower : MonoBehaviour
 {
-    public Transform Airplane;
+    public Transform AirplaneTransform;
     [SerializeField] private float camSmoothSpeed = 5f;
     [SerializeField] private Transform cameraHolder;
 
     private void Update()
     {
-        // Smoothly rotate the camera to face the mouse aim.
-        transform.position = Airplane.transform.position;
-        Vector3 upVec = (Mathf.Abs(Airplane.forward.y) > 0.9f) ? cameraHolder.up : Vector3.up;
-        cameraHolder.rotation = Damp(cameraHolder.rotation, Quaternion.LookRotation(Airplane.forward, upVec), camSmoothSpeed, Time.deltaTime);
+        transform.position = AirplaneTransform.position;
+        cameraHolder.rotation = Damp(cameraHolder.rotation, Quaternion.LookRotation(AirplaneTransform.forward, AirplaneTransform.up), camSmoothSpeed, Time.deltaTime);
     }
     
     private Quaternion Damp(Quaternion a, Quaternion b, float lambda, float dt)
