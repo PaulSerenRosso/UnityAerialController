@@ -639,8 +639,9 @@ MonoBehaviour:
   m_text: "There are ennemies flying around the level, hiding in the dark. \n\nLook
     out for their red trail in order to find them."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -926,8 +927,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1058,10 +1060,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ariplane controls 2
+  m_text: Airplane controls 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1327,8 +1330,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Previous
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1731,8 +1735,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Winning
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2090,8 +2095,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tutorial
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2574,8 +2580,9 @@ MonoBehaviour:
   m_text: You can rotate your plane left and right and move your plane's nose up
     and down my using the mouse.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3046,8 +3053,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3422,8 +3430,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tutorial
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3556,8 +3565,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tutorial
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4056,8 +4066,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Airplane Controls 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4190,8 +4201,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4481,8 +4493,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Objective
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4615,8 +4628,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tutorial
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4890,8 +4904,9 @@ MonoBehaviour:
     Use it to look around and find your bearings but be careful
     : you cannot control your plane while using the lamp.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5168,8 +5183,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5302,8 +5318,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5436,8 +5453,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Previous
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5781,8 +5799,9 @@ MonoBehaviour:
     watch out, hitting your plane against a wall will damage you. Take to much damange
     and it''s over.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5915,8 +5934,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hover Gloom
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6265,8 +6285,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6399,8 +6420,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tutorial
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6572,8 +6594,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6706,8 +6729,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Previous
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 881012bbda3f53e468d7f44bc06649f0, type: 2}
+  m_sharedMaterial: {fileID: 1661814027291792682, guid: 881012bbda3f53e468d7f44bc06649f0,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
