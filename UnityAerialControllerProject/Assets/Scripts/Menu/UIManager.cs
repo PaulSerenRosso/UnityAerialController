@@ -11,6 +11,10 @@ using Unity.VisualScripting.Antlr3.Runtime.Tree;
 
 public class UIManager : MonoBehaviour
 {
+    public int maxEnemyCount;
+
+    public GameObject player;
+    
     [SerializeField] private GameObject HUDPanel;
     [SerializeField] private GameObject EndPanel;
 
@@ -18,15 +22,18 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private TMP_Text EndTitle;
     [SerializeField] private TMP_Text TimerText;
+    [SerializeField] private TMP_Text EnemyCountText;
     [SerializeField] private GameObject EnemyContainer;
     [SerializeField] private GameObject enemyImagePrefab;
+
+    private int enemyCount;
     
-    private void Update()
+    void Update()
     {
         DisplayTimerText(Time.timeSinceLevelLoad);
     }
     
-    public void DisplayTimerText(float timer)
+    void DisplayTimerText(float timer)
     {
         float min = timer / 60;
         float sec = timer % 60;
@@ -38,24 +45,37 @@ public class UIManager : MonoBehaviour
         var temp = Instantiate(enemyImagePrefab, EnemyContainer.transform);
         temp.GetComponent<Image>().color = enemyColor;
     }
-    
-    /*public void UpdateEnemyCount(int count, int max)
-    {
-        EnemyCount.text = "Enemies : " + count + " / " + max;
-    }*/
 
-    public void UpdateLife(int remainingLife)
+    public void UpdateEnemyCount()
+    {
+        enemyCount--;
+        UpdateEnemyCount(enemyCount);
+        if(enemyCount<1) End(true);
+    }
+    
+    void UpdateEnemyCount(int count)
+    {
+        EnemyCountText.text = "Enemies : " + count + " / " + enemyCount;
+    }
+
+    public void UpdateHealth(int remainingLife)
     {
         Life[remainingLife].SetActive(false);
         if(remainingLife < 1 ) End(false);
     }
     
-    public void End(bool win)
+    void End(bool win)
     {
+        player.GetComponent<AirplaneController>().LockControls();
+        
         HUDPanel.SetActive(false);
         EndPanel.SetActive(true);
         Cursor.lockState = CursorLockMode.Confined;
         EndTitle.text = win ? "You Won !" : "You Lost...";
+        EnemyCountText.text =
+            win
+                ? "Enemies : " + (maxEnemyCount+1) + " / " + (maxEnemyCount+1)
+                : "Enemies : " + (maxEnemyCount - enemyCount) + " / " + (maxEnemyCount+1);
     }
     
     public void Replay()

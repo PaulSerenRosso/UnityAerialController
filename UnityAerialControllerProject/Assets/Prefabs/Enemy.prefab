@@ -122,6 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPathIndex: 0
   enemyPath: {fileID: 0}
+  enemyColor: {r: 0, g: 0, b: 0, a: 0}
+  uiManager: {fileID: 0}
   movementSpeed: 2
   rotationTime: 1
   rotationTimer: 0

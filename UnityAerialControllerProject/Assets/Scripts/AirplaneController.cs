@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,6 +21,8 @@ public class AirplaneController : MonoBehaviour
     private bool isLocked;
     [SerializeField] private SpeedParticleContainer speedParticleContainer;
 
+    private bool canMove = true;
+    
     private void OnEnable()
     {
         InputPlayerActions = new InputPlayerActions();
@@ -37,6 +40,7 @@ public class AirplaneController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!canMove) return;
         rb.AddForce(transform.forward * maxThrust * throttle, ForceMode.Force);
         if (isLocked) return;
         rb.AddTorque(-transform.right * deltaDirection.y * responseModifier, ForceMode.Force);
@@ -45,6 +49,7 @@ public class AirplaneController : MonoBehaviour
 
     private void HandleInputs()
     {
+        if (!canMove) return;
         deltaDirection = InputPlayerActions.Player.Direction.ReadValue<Vector2>();
         if (deltaDirection == Vector2.zero) rb.angularVelocity = Vector3.zero;
 
@@ -73,5 +78,31 @@ public class AirplaneController : MonoBehaviour
             isLocked = false;
             Cursor.visible = false;
         }
+    }
+
+    public void Rotate()
+    {
+        if (GetComponent<PlayerCollision>().IsDead()) return;
+        canMove = false;
+        transform.Rotate(transform.up, 180f);
+
+
+        rb.angularVelocity = Vector3.zero;
+        rb.velocity = Vector3.zero;
+        throttle = 0f;
+        StartCoroutine(ResetCanMove(1));
+    }
+
+    IEnumerator ResetCanMove(float timer)
+    {
+        yield return new WaitForSeconds(timer);
+
+        canMove = true;
+    }
+
+    public void LockControls()
+    {
+        Debug.Log("Controls locked");
+        canMove = false;
     }
 }

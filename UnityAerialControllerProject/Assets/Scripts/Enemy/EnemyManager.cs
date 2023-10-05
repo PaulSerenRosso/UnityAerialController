@@ -10,6 +10,7 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     public int enemyPathIndex;
      public EnemyPath enemyPath;
      public Color enemyColor;
+     public UIManager uiManager;
     private Vector3[] pathPoints;
     private int currentDestinationPointIndex;
     [SerializeField] private float movementSpeed = 2;
@@ -64,7 +65,7 @@ public class EnemyManager : MonoBehaviour, IUpdatable
 
     public void Kill()
     {
-        Debug.Log("Enemy killed.");
+        uiManager.UpdateEnemyCount();
     }
 }
     

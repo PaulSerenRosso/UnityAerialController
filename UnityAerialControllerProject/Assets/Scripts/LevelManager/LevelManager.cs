@@ -18,14 +18,17 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         airplane = Instantiate(playerPrefab, playerSpawn.position, playerSpawn.rotation);
+        airplane.GetComponent<PlayerCollision>().uiManager = levelUI.GetComponent<UIManager>();
         camera = Instantiate(cameraFollower);
-        camera.GetComponent<CameraFollower>().AirplaneTransform = airplane.transform; 
+        camera.GetComponent<CameraFollower>().AirplaneTransform = airplane.transform;
+        levelUI.GetComponent<UIManager>().maxEnemyCount = enemyPrefabs.Length - 1;
+        levelUI.GetComponent<UIManager>().player = airplane;
         for (int i = 0; i < enemyPrefabs.Length; i++)
         {
            EnemyManager enemyManager = Instantiate(enemyPrefabs[i]);
            enemyManager.enemyPath = allEnemyPaths[enemyPrefabs[i].enemyPathIndex];
+           enemyManager.uiManager = levelUI.GetComponent<UIManager>();
            levelUI.GetComponent<UIManager>().AddEnemyToList(enemyManager.enemyColor);
-               
         }
     }
 }

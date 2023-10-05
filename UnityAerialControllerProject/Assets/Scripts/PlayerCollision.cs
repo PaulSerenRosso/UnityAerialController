@@ -5,21 +5,31 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
+    public UIManager uiManager;
+
     [SerializeField] private int health;
     [SerializeField] private float invulnerabilityTimer;
-    [SerializeField] private GameObject ui;
+    [SerializeField] private Rigidbody rb;
 
-    private bool invulnerable;
+    private bool invulnerable = false;
     private void OnCollisionEnter(Collision other)
     {
+        if (invulnerable) return;
         health--;
-        ui.GetComponent<UIManager>().UpdateHealth(health);
+        rb.AddForce((transform.position - other.transform.position).normalized * 7500f, ForceMode.Impulse);
+        uiManager.UpdateHealth(health);
         invulnerable = true;
         Invoke("ResetInvulnerability", invulnerabilityTimer);
+        GetComponent<AirplaneController>().Rotate();
     }
 
     private void ResetInvulnerability()
     {
         invulnerable = false;
+    }
+
+    public bool IsDead()
+    {
+        return health == 0;
     }
 }
