@@ -16,11 +16,12 @@ public class PlayerCollision : MonoBehaviour
     {
         if (invulnerable) return;
         health--;
-        rb.AddForce((transform.position - other.transform.position).normalized * 7500f, ForceMode.Impulse);
+        
+        rb.AddForce(other.contacts[0].normal * 7500f, ForceMode.Impulse);
         uiManager.UpdateHealth(health);
         invulnerable = true;
         Invoke("ResetInvulnerability", invulnerabilityTimer);
-        GetComponent<AirplaneController>().Rotate();
+        GetComponent<AirplaneController>().Rotate(other.contacts[0].normal);
     }
 
     private void ResetInvulnerability()
