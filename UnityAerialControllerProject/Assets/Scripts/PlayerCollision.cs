@@ -18,7 +18,7 @@ public class PlayerCollision : MonoBehaviour
         if (invulnerable) return;
         health--;
         lightAnimation.Play();
-        rb.AddForce(other.contacts[0].normal * 7500f, ForceMode.Impulse);
+        rb.AddForce(other.contacts[0].normal * forceScale, ForceMode.Impulse);
         uiManager.UpdateHealth(health);
         invulnerable = true;
         Invoke("ResetInvulnerability", invulnerabilityTimer);

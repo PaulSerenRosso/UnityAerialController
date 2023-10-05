@@ -1,22 +1,37 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using HelperPSR.MonoLoopFunctions;
 using UnityEngine;
 
 public class StationnaryAirplaneParticlesContainer : MonoBehaviour, IUpdatable
 {
-   [SerializeField] private ParticleSystem particleSystem;
-   [SerializeField] private Transform pivotPoint;
-   [SerializeField] private float offset;
+    public Transform pivotPoint;
 
-   private void Start()
-   {
-      UpdateManager.Register(this);
-   }
+    [SerializeField] private ParticleSystem particleSystem;
+    [SerializeField] private float offset;
 
-   public void OnUpdate()
-   {
-      particleSystem.transform.position = pivotPoint.position + offset*Vector3.down;
-   }
+    private void Start()
+    {
+        UpdateManager.Register(this);
+    }
+
+    private void OnDisable()
+    {
+        UpdateManager.UnRegister(this);
+    }
+
+    public void ActivateParticle()
+    {
+        if (particleSystem.isPlaying) return; 
+        particleSystem.Play();
+    }
+
+    public void DeactivateParticle()
+    {
+        if (!particleSystem.isPlaying) return;
+        particleSystem.Stop();
+    }
+
+    public void OnUpdate()
+    {
+        particleSystem.transform.position = pivotPoint.position + offset * Vector3.down;
+    }
 }

@@ -385,13 +385,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 0}
   speedParticleContainer: {fileID: 0}
+  stationaryAirplane: {fileID: 0}
   throttleIncrement: 0.2
   maxThrust: 6.25
-  responsivenessX: 0.1
-  responsivenessY: 0.4
+  responsivenessX: 0.05
+  responsivenessY: 0.2
   rb: {fileID: 1025131148469697752}
   lightAirplane: {fileID: 4517183542908384463}
-  maxClamped: {x: 15, y: 40}
+  maxClamped: {x: 5, y: 5}
 --- !u!114 &593325363223746012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,7 +426,7 @@ MonoBehaviour:
   health: 3
   invulnerabilityTimer: 5
   rb: {fileID: 1025131148469697752}
-  forceScale: 1
+  forceScale: 50
 --- !u!136 &7796870759565899438
 CapsuleCollider:
   m_ObjectHideFlags: 0

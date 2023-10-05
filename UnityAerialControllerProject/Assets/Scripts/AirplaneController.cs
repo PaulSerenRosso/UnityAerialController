@@ -8,6 +8,7 @@ public class AirplaneController : MonoBehaviour
     public InputPlayerActions InputPlayerActions;
     public CameraFollower mainCamera;
     public SpeedParticleContainer speedParticleContainer;
+    public StationnaryAirplaneParticlesContainer stationaryAirplane;
 
 
     [Header("Components Airplane")] [SerializeField]
@@ -65,13 +66,20 @@ public class AirplaneController : MonoBehaviour
         {
             throttle += throttleIncrement;
             speedParticleContainer.ActivateParticle();
+            stationaryAirplane.DeactivateParticle();
         }
         else
         {
             throttle -= throttleIncrement;
+        }
+        
+        throttle = Mathf.Clamp(throttle, 0f, 100f);
+        
+        if (throttle == 0)
+        {
+            stationaryAirplane.ActivateParticle();
             speedParticleContainer.DeactivateParticle();
         }
-        throttle = Mathf.Clamp(throttle, 0f, 100f);
     }
 
     private void HandleLight()

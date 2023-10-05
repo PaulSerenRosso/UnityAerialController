@@ -7,12 +7,14 @@ public class LevelManager : MonoBehaviour
     
     [SerializeField] private Transform playerSpawn;
     [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private GameObject stationaryPrefab;
     [SerializeField] private EnemyManager[] enemyPrefabs;
     [SerializeField] private GameObject cameraFollower;
     [SerializeField] private GameObject levelUI;
 
     private GameObject airplane;
     private GameObject camera;
+    private GameObject stationary;
     
     void Start()
     {
@@ -23,6 +25,10 @@ public class LevelManager : MonoBehaviour
         airplane.GetComponent<AirplaneController>().speedParticleContainer =
             camera.GetComponent<CameraFollower>().speedParticle;
         camera.GetComponent<CameraFollower>().AirplaneTransform = airplane.transform;
+        stationary = Instantiate(stationaryPrefab);
+        airplane.GetComponent<AirplaneController>().stationaryAirplane =
+            stationary.GetComponent<StationnaryAirplaneParticlesContainer>();
+        stationary.GetComponent<StationnaryAirplaneParticlesContainer>().pivotPoint = airplane.transform;
         levelUI.GetComponent<UIManager>().maxEnemyCount = enemyPrefabs.Length;
         levelUI.GetComponent<UIManager>().player = airplane;
         for (int i = 0; i < enemyPrefabs.Length; i++)
