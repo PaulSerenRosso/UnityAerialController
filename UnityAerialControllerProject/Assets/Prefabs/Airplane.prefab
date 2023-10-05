@@ -407,7 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiManager: {fileID: 0}
   ShootingPoint: {fileID: 8497286096002152536}
-  KillTimer: 3
+  KillTimer: 1
   AimRadius: 0.4
   AimDistance: 75
 --- !u!114 &929199841228755420

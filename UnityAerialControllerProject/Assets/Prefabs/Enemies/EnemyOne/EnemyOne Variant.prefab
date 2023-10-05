@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 5970825196176176864, guid: a72cca79fcb470145a950f7404976a5d,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Variant
+      value: EnemyOne Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6289958873829052006, guid: a72cca79fcb470145a950f7404976a5d,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
