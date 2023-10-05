@@ -76,8 +76,8 @@ public class UIManager : MonoBehaviour
         EndTitle.text = win ? "You Won !" : "You Lost...";
         EnemyCountText.text =
             win
-                ? "Enemies : " + (maxEnemyCount+1) + " / " + (maxEnemyCount+1)
-                : "Enemies : " + (maxEnemyCount - enemyCount) + " / " + (maxEnemyCount+1);
+                ? "Enemies : " + (maxEnemyCount) + " / " + (maxEnemyCount)
+                : "Enemies : " + (maxEnemyCount - enemyCount) + " / " + (maxEnemyCount);
     }
     
     public void Replay()
