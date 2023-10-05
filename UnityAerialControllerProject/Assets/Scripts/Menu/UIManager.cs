@@ -44,16 +44,18 @@ public class UIManager : MonoBehaviour
     {
         var temp = Instantiate(enemyImagePrefab, EnemyContainer.transform);
         temp.GetComponent<Image>().color = enemyColor;
+        enemyCount = maxEnemyCount;
     }
 
     public void UpdateEnemyCount()
     {
         enemyCount--;
-        UpdateEnemyCount(enemyCount);
+        Debug.Log("Enemy count : " + enemyCount);
+        UpdateEnemyCountText(enemyCount);
         if(enemyCount<1) End(true);
     }
     
-    void UpdateEnemyCount(int count)
+    void UpdateEnemyCountText(int count)
     {
         EnemyCountText.text = "Enemies : " + count + " / " + enemyCount;
     }

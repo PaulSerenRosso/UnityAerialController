@@ -72,5 +72,6 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     public void Kill()
     {
         uiManager.UpdateEnemyCount();
+        gameObject.SetActive(false);
     }
 }

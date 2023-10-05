@@ -26,7 +26,7 @@ public class ShootingController : MonoBehaviour
     private void ShootProcess()
     {
         RaycastHit hit;
-        Physics.SphereCast(ShootingPoint.position, AimRadius, ShootingPoint.forward, out hit, AimDistance, 3);
+        Physics.SphereCast(ShootingPoint.position, AimRadius, ShootingPoint.forward, out hit, AimDistance);
 
         if (!hit.collider && !target)
             return;
@@ -46,7 +46,7 @@ public class ShootingController : MonoBehaviour
                 return;
             }
         }
-        else if(hit.distance <= AimDistance)
+        else if(hit.distance <= AimDistance && hit.collider.CompareTag("Enemy"))
         {
             Debug.Log("target found");
             target = hit.collider;
