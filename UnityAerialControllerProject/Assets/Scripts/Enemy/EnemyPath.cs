@@ -19,7 +19,7 @@ public class EnemyPath : MonoBehaviour
     }
     public  void CalculatePath(EnvironmentObject[] allEnvironmentObjects)
     {
-        curveCount = (checkPointsBezierControlPoints.Length+environmentObjectsWithPivotsForThePath.Length) / 3;
+        curveCount = checkPointsBezierControlPoints.Length / 2;
         checkPointBezierPoints.Clear();
         
         for (int j = 0; j < curveCount; j++)

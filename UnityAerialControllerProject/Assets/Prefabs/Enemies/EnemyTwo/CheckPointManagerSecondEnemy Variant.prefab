@@ -1,0 +1,2965 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1176407565873263565
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: curveCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: gizmosColor.b
+      value: 0.03720951
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: gizmosColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.size
+      value: 183
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[0].x
+      value: -34.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[0].y
+      value: 16.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[0].z
+      value: 60.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[1].x
+      value: -33.906807
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[1].y
+      value: 16.241905
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[1].z
+      value: 60.418884
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[2].x
+      value: -33.671062
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[2].y
+      value: 16.195084
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[2].z
+      value: 60.51121
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[3].x
+      value: -33.442516
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[3].y
+      value: 16.149508
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[3].z
+      value: 60.597298
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[4].x
+      value: -33.220932
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[4].y
+      value: 16.105133
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[4].z
+      value: 60.677402
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[5].x
+      value: -33.00605
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[5].y
+      value: 16.061918
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[5].z
+      value: 60.75182
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[6].x
+      value: -32.79762
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[6].y
+      value: 16.019827
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[6].z
+      value: 60.820816
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[7].x
+      value: -32.59541
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[7].y
+      value: 15.978825
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[7].z
+      value: 60.88471
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[8].x
+      value: -32.399162
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[8].y
+      value: 15.938868
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[8].z
+      value: 60.943764
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[9].x
+      value: -32.208626
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[9].y
+      value: 15.899916
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[9].z
+      value: 60.99826
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[10].x
+      value: -32.023552
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[10].y
+      value: 15.861933
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[10].z
+      value: 61.04848
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[11].x
+      value: -31.843706
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[11].y
+      value: 15.824882
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[11].z
+      value: 61.094734
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[12].x
+      value: -31.668835
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[12].y
+      value: 15.788722
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[12].z
+      value: 61.137283
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[13].x
+      value: -31.49868
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[13].y
+      value: 15.75341
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[13].z
+      value: 61.17641
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[14].x
+      value: -31.333012
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[14].y
+      value: 15.718916
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[14].z
+      value: 61.21242
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[15].x
+      value: -31.171572
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[15].y
+      value: 15.685196
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[15].z
+      value: 61.24559
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[16].x
+      value: -31.014116
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[16].y
+      value: 15.652212
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[16].z
+      value: 61.2762
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[17].x
+      value: -30.86039
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[17].y
+      value: 15.619924
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[17].z
+      value: 61.304527
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[18].x
+      value: -30.710152
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[18].y
+      value: 15.588293
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[18].z
+      value: 61.330864
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[19].x
+      value: -30.563156
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[19].y
+      value: 15.557282
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[19].z
+      value: 61.355495
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[20].x
+      value: -30.419147
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[20].y
+      value: 15.52685
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[20].z
+      value: 61.3787
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[21].x
+      value: -30.277887
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[21].y
+      value: 15.496963
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[21].z
+      value: 61.400776
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[22].x
+      value: -30.139122
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[22].y
+      value: 15.467579
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[22].z
+      value: 61.422012
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[23].x
+      value: -30.002611
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[23].y
+      value: 15.438657
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[23].z
+      value: 61.44267
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[24].x
+      value: -29.868097
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[24].y
+      value: 15.410161
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[24].z
+      value: 61.46305
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[25].x
+      value: -29.73534
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[25].y
+      value: 15.382051
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[25].z
+      value: 61.48343
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[26].x
+      value: -29.604086
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[26].y
+      value: 15.354289
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[26].z
+      value: 61.504093
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[27].x
+      value: -29.47409
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[27].y
+      value: 15.326835
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[27].z
+      value: 61.52533
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[28].x
+      value: -29.345108
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[28].y
+      value: 15.29965
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[28].z
+      value: 61.54742
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[29].x
+      value: -29.21689
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[29].y
+      value: 15.272697
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[29].z
+      value: 61.570656
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[30].x
+      value: -29.08919
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[30].y
+      value: 15.245937
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[30].z
+      value: 61.59532
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[31].x
+      value: -28.961754
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[31].y
+      value: 15.219332
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[31].z
+      value: 61.621693
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[32].x
+      value: -28.834343
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[32].y
+      value: 15.19284
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[32].z
+      value: 61.65006
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[33].x
+      value: -28.706701
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[33].y
+      value: 15.166422
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[33].z
+      value: 61.68071
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[34].x
+      value: -28.578587
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[34].y
+      value: 15.140044
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[34].z
+      value: 61.71392
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[35].x
+      value: -28.449753
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[35].y
+      value: 15.113663
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[35].z
+      value: 61.749977
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[36].x
+      value: -28.319944
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[36].y
+      value: 15.08724
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[36].z
+      value: 61.789173
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[37].x
+      value: -28.188921
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[37].y
+      value: 15.0607395
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[37].z
+      value: 61.83178
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[38].x
+      value: -28.056435
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[38].y
+      value: 15.03412
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[38].z
+      value: 61.878098
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[39].x
+      value: -27.922235
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[39].y
+      value: 15.007343
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[39].z
+      value: 61.928394
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[40].x
+      value: -27.786076
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[40].y
+      value: 14.980371
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[40].z
+      value: 61.98297
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[41].x
+      value: -27.647709
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[41].y
+      value: 14.953163
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[41].z
+      value: 62.042103
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[42].x
+      value: -27.506884
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[42].y
+      value: 14.925683
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[42].z
+      value: 62.10608
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[43].x
+      value: -27.363361
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[43].y
+      value: 14.89789
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[43].z
+      value: 62.17517
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[44].x
+      value: -27.216885
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[44].y
+      value: 14.869745
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[44].z
+      value: 62.249687
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[45].x
+      value: -27.067213
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[45].y
+      value: 14.841211
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[45].z
+      value: 62.32989
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[46].x
+      value: -26.914093
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[46].y
+      value: 14.812248
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[46].z
+      value: 62.416077
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[47].x
+      value: -26.757282
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[47].y
+      value: 14.782818
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[47].z
+      value: 62.50853
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[48].x
+      value: -26.59653
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[48].y
+      value: 14.752882
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[48].z
+      value: 62.607533
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[49].x
+      value: -26.431587
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[49].y
+      value: 14.722399
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[49].z
+      value: 62.713364
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[50].x
+      value: -26.26221
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[50].y
+      value: 14.691332
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[50].z
+      value: 62.826317
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[51].x
+      value: -26.08815
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[51].y
+      value: 14.659641
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[51].z
+      value: 62.94667
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[52].x
+      value: -25.90916
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[52].y
+      value: 14.627291
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[52].z
+      value: 63.074722
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[53].x
+      value: -25.72499
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[53].y
+      value: 14.59424
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[53].z
+      value: 63.21074
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[54].x
+      value: -25.535395
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[54].y
+      value: 14.560448
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[54].z
+      value: 63.355007
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[55].x
+      value: -25.340122
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[55].y
+      value: 14.525879
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[55].z
+      value: 63.507828
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[56].x
+      value: -25.138931
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[56].y
+      value: 14.490492
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[56].z
+      value: 63.669468
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[57].x
+      value: -24.931572
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[57].y
+      value: 14.454249
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[57].z
+      value: 63.840225
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[58].x
+      value: -24.717794
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[58].y
+      value: 14.417112
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[58].z
+      value: 64.02037
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[59].x
+      value: -24.497353
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[59].y
+      value: 14.379042
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[59].z
+      value: 64.210205
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[60].x
+      value: -24.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[60].y
+      value: 14.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[60].z
+      value: 64.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[61].x
+      value: -24.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[61].y
+      value: 14.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[61].z
+      value: 64.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[62].x
+      value: -24.343552
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[62].y
+      value: 14.174713
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[62].z
+      value: 64.15432
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[63].x
+      value: -24.413841
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[63].y
+      value: 14.014728
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[63].z
+      value: 63.905754
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[64].x
+      value: -24.481049
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[64].y
+      value: 13.859874
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[64].z
+      value: 63.664146
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[65].x
+      value: -24.545322
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[65].y
+      value: 13.709969
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[65].z
+      value: 63.4293
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[66].x
+      value: -24.606825
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[66].y
+      value: 13.564841
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[66].z
+      value: 63.20106
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[67].x
+      value: -24.665709
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[67].y
+      value: 13.424307
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[67].z
+      value: 62.97922
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[68].x
+      value: -24.722145
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[68].y
+      value: 13.288199
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[68].z
+      value: 62.76366
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[69].x
+      value: -24.776287
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[69].y
+      value: 13.156333
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[69].z
+      value: 62.554165
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[70].x
+      value: -24.828293
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[70].y
+      value: 13.028537
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[70].z
+      value: 62.350555
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[71].x
+      value: -24.87832
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[71].y
+      value: 12.90463
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[71].z
+      value: 62.152668
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[72].x
+      value: -24.92654
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[72].y
+      value: 12.784441
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[72].z
+      value: 61.960342
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[73].x
+      value: -24.973103
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[73].y
+      value: 12.66779
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[73].z
+      value: 61.773396
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[74].x
+      value: -25.018164
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[74].y
+      value: 12.554501
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[74].z
+      value: 61.59163
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[75].x
+      value: -25.061895
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[75].y
+      value: 12.444397
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[75].z
+      value: 61.41491
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[76].x
+      value: -25.104452
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[76].y
+      value: 12.337305
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[76].z
+      value: 61.24304
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[77].x
+      value: -25.14599
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[77].y
+      value: 12.233044
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[77].z
+      value: 61.075848
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[78].x
+      value: -25.186668
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[78].y
+      value: 12.131439
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[78].z
+      value: 60.91316
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[79].x
+      value: -25.226652
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[79].y
+      value: 12.032312
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[79].z
+      value: 60.754784
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[80].x
+      value: -25.266096
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[80].y
+      value: 11.935491
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[80].z
+      value: 60.60057
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[81].x
+      value: -25.305157
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[81].y
+      value: 11.840793
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[81].z
+      value: 60.450333
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[82].x
+      value: -25.344006
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[82].y
+      value: 11.748047
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[82].z
+      value: 60.3039
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[83].x
+      value: -25.382797
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[83].y
+      value: 11.657075
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[83].z
+      value: 60.161106
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[84].x
+      value: -25.421688
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[84].y
+      value: 11.567699
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[84].z
+      value: 60.021763
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[85].x
+      value: -25.460835
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[85].y
+      value: 11.479745
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[85].z
+      value: 59.885708
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[86].x
+      value: -25.500406
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[86].y
+      value: 11.393034
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[86].z
+      value: 59.75275
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[87].x
+      value: -25.540552
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[87].y
+      value: 11.307388
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[87].z
+      value: 59.622723
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[88].x
+      value: -25.58144
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[88].y
+      value: 11.222634
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[88].z
+      value: 59.495453
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[89].x
+      value: -25.623224
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[89].y
+      value: 11.138595
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[89].z
+      value: 59.37076
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[90].x
+      value: -25.666067
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[90].y
+      value: 11.055092
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[90].z
+      value: 59.24849
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[91].x
+      value: -25.710133
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[91].y
+      value: 10.971952
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[91].z
+      value: 59.12845
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[92].x
+      value: -25.755573
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[92].y
+      value: 10.888997
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[92].z
+      value: 59.010464
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[93].x
+      value: -25.802551
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[93].y
+      value: 10.806047
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[93].z
+      value: 58.894363
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[94].x
+      value: -25.851221
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[94].y
+      value: 10.722931
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[94].z
+      value: 58.779976
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[95].x
+      value: -25.901752
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[95].y
+      value: 10.63947
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[95].z
+      value: 58.66712
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[96].x
+      value: -25.9543
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[96].y
+      value: 10.555486
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[96].z
+      value: 58.555626
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[97].x
+      value: -26.009018
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[97].y
+      value: 10.470803
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[97].z
+      value: 58.445316
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[98].x
+      value: -26.066076
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[98].y
+      value: 10.385248
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[98].z
+      value: 58.33602
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[99].x
+      value: -26.125626
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[99].y
+      value: 10.298639
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[99].z
+      value: 58.227562
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[100].x
+      value: -26.187832
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[100].y
+      value: 10.210806
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[100].z
+      value: 58.11977
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[101].x
+      value: -26.252853
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[101].y
+      value: 10.121565
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[101].z
+      value: 58.01246
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[102].x
+      value: -26.320847
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[102].y
+      value: 10.030745
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[102].z
+      value: 57.905464
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[103].x
+      value: -26.391972
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[103].y
+      value: 9.938168
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[103].z
+      value: 57.798615
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[104].x
+      value: -26.466393
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[104].y
+      value: 9.843656
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[104].z
+      value: 57.69172
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[105].x
+      value: -26.544264
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[105].y
+      value: 9.747033
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[105].z
+      value: 57.584618
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[106].x
+      value: -26.625748
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[106].y
+      value: 9.648125
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[106].z
+      value: 57.477135
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[107].x
+      value: -26.711004
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[107].y
+      value: 9.546751
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[107].z
+      value: 57.369087
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[108].x
+      value: -26.800192
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[108].y
+      value: 9.442739
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[108].z
+      value: 57.26031
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[109].x
+      value: -26.89347
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[109].y
+      value: 9.335909
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[109].z
+      value: 57.150623
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[110].x
+      value: -26.990997
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[110].y
+      value: 9.226087
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[110].z
+      value: 57.039856
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[111].x
+      value: -27.092937
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[111].y
+      value: 9.113094
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[111].z
+      value: 56.927826
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[112].x
+      value: -27.199444
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[112].y
+      value: 8.996756
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[112].z
+      value: 56.814365
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[113].x
+      value: -27.310684
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[113].y
+      value: 8.876896
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[113].z
+      value: 56.699306
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[114].x
+      value: -27.426813
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[114].y
+      value: 8.753335
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[114].z
+      value: 56.58246
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[115].x
+      value: -27.547985
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[115].y
+      value: 8.625897
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[115].z
+      value: 56.463654
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[116].x
+      value: -27.67437
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[116].y
+      value: 8.494409
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[116].z
+      value: 56.342724
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[117].x
+      value: -27.806122
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[117].y
+      value: 8.358691
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[117].z
+      value: 56.219482
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[118].x
+      value: -27.943401
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[118].y
+      value: 8.218568
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[118].z
+      value: 56.09377
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[119].x
+      value: -28.086367
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[119].y
+      value: 8.073863
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[119].z
+      value: 55.965397
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[120].x
+      value: -28.23518
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[120].y
+      value: 7.924399
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[120].z
+      value: 55.8342
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[121].x
+      value: -28.390001
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[121].y
+      value: 7.7700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[121].z
+      value: 55.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[122].x
+      value: -28.390001
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[122].y
+      value: 7.7700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[122].z
+      value: 55.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[123].x
+      value: -28.506458
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[123].y
+      value: 7.9703875
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[123].z
+      value: 55.81233
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[124].x
+      value: -28.618793
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[124].y
+      value: 8.1640215
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[124].z
+      value: 55.920906
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[125].x
+      value: -28.727196
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[125].y
+      value: 8.351148
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[125].z
+      value: 56.02587
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[126].x
+      value: -28.831835
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[126].y
+      value: 8.532014
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[126].z
+      value: 56.12735
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[127].x
+      value: -28.932888
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[127].y
+      value: 8.706866
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[127].z
+      value: 56.225475
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[128].x
+      value: -29.030529
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[128].y
+      value: 8.875952
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[128].z
+      value: 56.320374
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[129].x
+      value: -29.124949
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[129].y
+      value: 9.039521
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[129].z
+      value: 56.412186
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[130].x
+      value: -29.216309
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[130].y
+      value: 9.197817
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[130].z
+      value: 56.501045
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[131].x
+      value: -29.304789
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[131].y
+      value: 9.351087
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[131].z
+      value: 56.58707
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[132].x
+      value: -29.390568
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[132].y
+      value: 9.499577
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[132].z
+      value: 56.670403
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[133].x
+      value: -29.47383
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[133].y
+      value: 9.643538
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[133].z
+      value: 56.75118
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[134].x
+      value: -29.554745
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[134].y
+      value: 9.783215
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[134].z
+      value: 56.82953
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[135].x
+      value: -29.633484
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[135].y
+      value: 9.918852
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[135].z
+      value: 56.905567
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[136].x
+      value: -29.71024
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[136].y
+      value: 10.050701
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[136].z
+      value: 56.979454
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[137].x
+      value: -29.785177
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[137].y
+      value: 10.179006
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[137].z
+      value: 57.051304
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[138].x
+      value: -29.858479
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[138].y
+      value: 10.304016
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[138].z
+      value: 57.121254
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[139].x
+      value: -29.930319
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[139].y
+      value: 10.425975
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[139].z
+      value: 57.189434
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[140].x
+      value: -30.000874
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[140].y
+      value: 10.545131
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[140].z
+      value: 57.255966
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[141].x
+      value: -30.070324
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[141].y
+      value: 10.661732
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[141].z
+      value: 57.321003
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[142].x
+      value: -30.138842
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[142].y
+      value: 10.776023
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[142].z
+      value: 57.384655
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[143].x
+      value: -30.206608
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[143].y
+      value: 10.888254
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[143].z
+      value: 57.44708
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[144].x
+      value: -30.273802
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[144].y
+      value: 10.998672
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[144].z
+      value: 57.50839
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[145].x
+      value: -30.3406
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[145].y
+      value: 11.10752
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[145].z
+      value: 57.568726
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[146].x
+      value: -30.407171
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[146].y
+      value: 11.21505
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[146].z
+      value: 57.62822
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[147].x
+      value: -30.473698
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[147].y
+      value: 11.321504
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[147].z
+      value: 57.68699
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[148].x
+      value: -30.540361
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[148].y
+      value: 11.427131
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[148].z
+      value: 57.74518
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[149].x
+      value: -30.60733
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[149].y
+      value: 11.532179
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[149].z
+      value: 57.802917
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[150].x
+      value: -30.674784
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[150].y
+      value: 11.636893
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[150].z
+      value: 57.86034
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[151].x
+      value: -30.742907
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[151].y
+      value: 11.741523
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[151].z
+      value: 57.917572
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[152].x
+      value: -30.81187
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[152].y
+      value: 11.846314
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[152].z
+      value: 57.974762
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[153].x
+      value: -30.881853
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[153].y
+      value: 11.951513
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[153].z
+      value: 58.03203
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[154].x
+      value: -30.95303
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[154].y
+      value: 12.057367
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[154].z
+      value: 58.089504
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[155].x
+      value: -31.025576
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[155].y
+      value: 12.164124
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[155].z
+      value: 58.147316
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[156].x
+      value: -31.099674
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[156].y
+      value: 12.27203
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[156].z
+      value: 58.205605
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[157].x
+      value: -31.175499
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[157].y
+      value: 12.3813305
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[157].z
+      value: 58.264507
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[158].x
+      value: -31.253223
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[158].y
+      value: 12.492275
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[158].z
+      value: 58.324135
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[159].x
+      value: -31.333035
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[159].y
+      value: 12.60511
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[159].z
+      value: 58.38464
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[160].x
+      value: -31.415096
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[160].y
+      value: 12.720081
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[160].z
+      value: 58.446148
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[161].x
+      value: -31.499596
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[161].y
+      value: 12.837437
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[161].z
+      value: 58.50879
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[162].x
+      value: -31.586708
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[162].y
+      value: 12.957424
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[162].z
+      value: 58.572693
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[163].x
+      value: -31.676605
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[163].y
+      value: 13.080288
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[163].z
+      value: 58.638
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[164].x
+      value: -31.769474
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[164].y
+      value: 13.206278
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[164].z
+      value: 58.704834
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[165].x
+      value: -31.865479
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[165].y
+      value: 13.335638
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[165].z
+      value: 58.773335
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[166].x
+      value: -31.964806
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[166].y
+      value: 13.46862
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[166].z
+      value: 58.843628
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[167].x
+      value: -32.06763
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[167].y
+      value: 13.605465
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[167].z
+      value: 58.915848
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[168].x
+      value: -32.17413
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[168].y
+      value: 13.746424
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[168].z
+      value: 58.99012
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[169].x
+      value: -32.284477
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[169].y
+      value: 13.891744
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[169].z
+      value: 59.06659
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[170].x
+      value: -32.398857
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[170].y
+      value: 14.041669
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[170].z
+      value: 59.14538
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[171].x
+      value: -32.517437
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[171].y
+      value: 14.196447
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[171].z
+      value: 59.226616
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[172].x
+      value: -32.640396
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[172].y
+      value: 14.356327
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[172].z
+      value: 59.31044
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[173].x
+      value: -32.76792
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[173].y
+      value: 14.521555
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[173].z
+      value: 59.396988
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[174].x
+      value: -32.900185
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[174].y
+      value: 14.692379
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[174].z
+      value: 59.48639
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[175].x
+      value: -33.037357
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[175].y
+      value: 14.869042
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[175].z
+      value: 59.57877
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[176].x
+      value: -33.179615
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[176].y
+      value: 15.051793
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[176].z
+      value: 59.674255
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[177].x
+      value: -33.327145
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[177].y
+      value: 15.240882
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[177].z
+      value: 59.772995
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[178].x
+      value: -33.48012
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[178].y
+      value: 15.436553
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[178].z
+      value: 59.875114
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[179].x
+      value: -33.638718
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[179].y
+      value: 15.639052
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[179].z
+      value: 59.98074
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[180].x
+      value: -33.80311
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[180].y
+      value: 15.848629
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[180].z
+      value: 60.090004
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[181].x
+      value: -33.97348
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[181].y
+      value: 16.06553
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[181].z
+      value: 60.20305
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[182].x
+      value: -34.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[182].y
+      value: 16.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointBezierPoints.Array.data[182].z
+      value: 60.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[0].x
+      value: -29.210001
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[0].y
+      value: 15.315001
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[0].z
+      value: 62.365
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[1].x
+      value: -28.887835
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[1].y
+      value: 15.130835
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[1].z
+      value: 60.31252
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[2].x
+      value: -25.774538
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[2].y
+      value: 10.980035
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[2].z
+      value: 59.223984
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[3].x
+      value: -25.232483
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[3].y
+      value: 10.9085045
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[3].z
+      value: 58.41521
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[4].x
+      value: -30.761469
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[4].y
+      value: 11.846936
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[4].z
+      value: 57.984947
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[5].x
+      value: -30.556856
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[5].y
+      value: 11.723235
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: checkPointsBezierControlPoints.Array.data[5].z
+      value: 57.941093
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: environmentObjectsWithPivotsForThePath.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: environmentObjectsWithPivotsForThePath.Array.data[0].environmentObjectIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: environmentObjectsWithPivotsForThePath.Array.data[1].environmentObjectIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: environmentObjectsWithPivotsForThePath.Array.data[2].environmentObjectIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: environmentObjectsWithPivotsForThePath.Array.data[3].environmentObjectIndex
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: environmentObjectsWithPivotsForThePath.Array.data[4].environmentObjectIndex
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 575488686145168464, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: environmentObjectsWithPivotsForThePath.Array.data[5].environmentObjectIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 822699344895834375, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_Name
+      value: CheckPointManagerSecondEnemy Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978585423095152466, guid: 851240561e688684182de947ba447d13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 851240561e688684182de947ba447d13, type: 3}
