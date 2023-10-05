@@ -45,7 +45,10 @@ public class MainMenu : MonoBehaviour
     
     public void Quit()
     {
+#if UNITY_EDITOR
         if (Application.isEditor) UnityEditor.EditorApplication.isPlaying = false;
         else Application.Quit();
+#endif
+        Application.Quit();
     }
 }

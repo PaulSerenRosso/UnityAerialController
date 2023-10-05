@@ -388,7 +388,7 @@ MonoBehaviour:
   stationaryAirplane: {fileID: 0}
   throttleIncrement: 0.2
   maxThrust: 6.25
-  responsivenessX: 0.05
+  responsivenessX: 0.02
   responsivenessY: 0.2
   rb: {fileID: 1025131148469697752}
   lightAirplane: {fileID: 4517183542908384463}
