@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public UIManager uiManager;
-
+    [SerializeField] private Animation lightAnimation;
     [SerializeField] private int health;
     [SerializeField] private float invulnerabilityTimer;
     [SerializeField] private Rigidbody rb;
@@ -17,7 +17,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (invulnerable) return;
         health--;
-        
+        lightAnimation.Play();
         rb.AddForce(other.contacts[0].normal * 7500f, ForceMode.Impulse);
         uiManager.UpdateHealth(health);
         invulnerable = true;
