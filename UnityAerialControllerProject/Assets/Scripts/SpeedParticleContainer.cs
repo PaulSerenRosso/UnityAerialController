@@ -16,6 +16,7 @@ public class SpeedParticleContainer : MonoBehaviour
     [SerializeField] private float maxParticleSpeed;
 
     [SerializeField] private ParticleSystem particleSystem;
+    
 
     [SerializeField]
     private float testSpeedNormalized;
@@ -28,6 +29,8 @@ public class SpeedParticleContainer : MonoBehaviour
     private void Start()
     {
         ActivateParticle();
+        var particleSystemColorBySpeed = particleSystem.colorBySpeed;
+        particleSystemColorBySpeed.range = new Vector2(minParticleSpeed, maxParticleSpeed);
     }
 
     public void ActivateParticle()
@@ -48,6 +51,7 @@ public class SpeedParticleContainer : MonoBehaviour
         var particleSystemMain = particleSystem.main;
         particleSystemMain.startSpeed =
             new ParticleSystem.MinMaxCurve(minParticleSpeed + speedNormalized * maxParticleSpeed);
+      
     }
 
 
