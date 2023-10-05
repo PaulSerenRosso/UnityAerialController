@@ -10,13 +10,14 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private float invulnerabilityTimer;
     [SerializeField] private Rigidbody rb;
+    [SerializeField] private float forceScale = 3750f;
 
-    private bool invulnerable = false;
+    private bool invulnerable;
     private void OnCollisionEnter(Collision other)
     {
         if (invulnerable) return;
         health--;
-        rb.AddForce((transform.position - other.transform.position).normalized * 7500f, ForceMode.Impulse);
+        rb.AddForce((-rb.velocity).normalized * forceScale, ForceMode.Impulse);
         uiManager.UpdateHealth(health);
         invulnerable = true;
         Invoke("ResetInvulnerability", invulnerabilityTimer);

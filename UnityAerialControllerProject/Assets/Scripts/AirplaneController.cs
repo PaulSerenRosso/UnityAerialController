@@ -84,8 +84,10 @@ public class AirplaneController : MonoBehaviour
     {
         if (GetComponent<PlayerCollision>().IsDead()) return;
         canMove = false;
-        transform.Rotate(transform.up, 180f);
-
+        Debug.Log("Before: " + transform.rotation.eulerAngles);
+        // transform.Rotate(transform.up, 180f);
+        transform.forward = -transform.forward;
+        Debug.Log("After: " + transform.rotation.eulerAngles);
 
         rb.angularVelocity = Vector3.zero;
         rb.velocity = Vector3.zero;

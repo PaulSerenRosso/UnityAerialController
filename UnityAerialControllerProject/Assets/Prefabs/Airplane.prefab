@@ -459,6 +459,7 @@ Transform:
   - {fileID: 5710651587006316530}
   - {fileID: 7382386044339912330}
   - {fileID: 7376284392691618509}
+  - {fileID: 257550408844084521}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1025131148469697752
@@ -505,6 +506,7 @@ MonoBehaviour:
   responsiveness: 0.8
   rb: {fileID: 1025131148469697752}
   lightAirplane: {fileID: 4517183542908384463}
+  speedParticleContainer: {fileID: 0}
 --- !u!114 &593325363223746012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,6 +539,7 @@ MonoBehaviour:
   health: 3
   invulnerabilityTimer: 5
   rb: {fileID: 1025131148469697752}
+  forceScale: 1500
 --- !u!136 &7796870759565899438
 CapsuleCollider:
   m_ObjectHideFlags: 0

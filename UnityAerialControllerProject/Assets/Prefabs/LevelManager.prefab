@@ -44,15 +44,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8deff315e9fb824d8694c2b20f3be69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpawn: {fileID: 1986813316271873386}
-  playerPrefab: {fileID: 7997506183444979649, guid: 1f95f83eec7ece94b925a238208682a3,
+  playerSpawn: {fileID: 0}
+  playerPrefab: {fileID: 5284356371491159146, guid: 438baa9cd68ea54479cdd9823db3f741,
     type: 3}
   enemyPrefabs:
   - {fileID: 6289958873829052006, guid: a72cca79fcb470145a950f7404976a5d, type: 3}
-  camera: {fileID: 0}
+  - {fileID: 8750483770183284644, guid: 28503595a1662a64ba9e1649e627dd7e, type: 3}
+  - {fileID: 736387845624306161, guid: 355154ed52e49f4449d9dade10d1ccf0, type: 3}
+  - {fileID: 6422918764269010011, guid: f1ded306eb26afb41a18e4f28a6ef6b6, type: 3}
+  - {fileID: 3898948654319819, guid: 756415b0d2d9e844f9222b4a6b801383, type: 3}
+  cameraFollower: {fileID: 1736325038080859734, guid: 1512406df58abb248a4538d28f01616e,
+    type: 3}
+  levelUI: {fileID: 0}
   allEnvironmentObjects:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   allEnemyPaths:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
