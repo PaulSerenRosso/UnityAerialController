@@ -3,6 +3,7 @@ using UnityEngine;
 public class CameraFollower : MonoBehaviour
 {
     public Transform AirplaneTransform;
+    public SpeedParticleContainer speedParticle;
     [SerializeField] private float camSmoothSpeed = 5f;
     [SerializeField] private Transform cameraHolder;
 

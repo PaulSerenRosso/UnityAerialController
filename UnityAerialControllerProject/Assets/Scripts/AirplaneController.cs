@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 public class AirplaneController : MonoBehaviour
 {
     public InputPlayerActions InputPlayerActions;
+    public CameraFollower mainCamera;
+    public SpeedParticleContainer speedParticleContainer;
+
 
     [Header("Components Airplane")] [SerializeField]
     private float throttleIncrement = 0.1f;
@@ -19,7 +22,6 @@ public class AirplaneController : MonoBehaviour
     private float throttle;
     private Vector2 deltaDirection;
     private bool isLocked;
-    [SerializeField] private SpeedParticleContainer speedParticleContainer;
 
     private bool canMove = true;
     
@@ -35,7 +37,7 @@ public class AirplaneController : MonoBehaviour
     {
         HandleInputs();
         HandleLight();
-      //  speedParticleContainer.UpdateParticle(throttle/);
+        speedParticleContainer.UpdateParticle(throttle/100);
     }
 
     private void FixedUpdate()
@@ -53,8 +55,16 @@ public class AirplaneController : MonoBehaviour
         deltaDirection = InputPlayerActions.Player.Direction.ReadValue<Vector2>();
         if (deltaDirection == Vector2.zero) rb.angularVelocity = Vector3.zero;
 
-        if (InputPlayerActions.Player.Accelerate.IsPressed()) throttle += throttleIncrement;
-        else throttle -= throttleIncrement;
+        if (InputPlayerActions.Player.Accelerate.IsPressed())
+        {
+            throttle += throttleIncrement;
+            speedParticleContainer.ActivateParticle();
+        }
+        else
+        {
+            throttle -= throttleIncrement;
+            speedParticleContainer.DeactivateParticle();
+        }
         throttle = Mathf.Clamp(throttle, 0f, 100f);
     }
 
