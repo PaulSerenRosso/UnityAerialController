@@ -330,7 +330,7 @@ Transform:
   m_GameObject: {fileID: 4562094866694821232}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.56, z: -1.39}
+  m_LocalPosition: {x: 0, y: 1.74, z: -2.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -348,7 +348,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -452,7 +452,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8497286096002152536}
@@ -501,9 +501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9579ea4a3eeb5014c838a91b8bd401fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  throttleIncrement: 0.1
-  maxThrust: 200
-  responsiveness: 20
+  throttleIncrement: 0.2
+  maxThrust: 6.25
+  responsiveness: 0.8
   rb: {fileID: 1025131148469697752}
   lightAirplane: {fileID: 4517183542908384463}
   speedParticleContainer: {fileID: 0}
@@ -539,6 +539,7 @@ MonoBehaviour:
   health: 3
   invulnerabilityTimer: 5
   rb: {fileID: 1025131148469697752}
+  forceScale: 1500
 --- !u!136 &7796870759565899438
 CapsuleCollider:
   m_ObjectHideFlags: 0

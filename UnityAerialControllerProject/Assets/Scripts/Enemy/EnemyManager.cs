@@ -8,9 +8,9 @@ using UnityEngine.Serialization;
 public class EnemyManager : MonoBehaviour, IUpdatable
 {
     public int enemyPathIndex;
-     public EnemyPath enemyPath;
-     public Color enemyColor;
-     public UIManager uiManager;
+    public EnemyPath enemyPath;
+    public Color enemyColor;
+    public UIManager uiManager;
     private Vector3[] pathPoints;
     private int currentDestinationPointIndex;
     [SerializeField] private float movementSpeed = 2;
@@ -20,47 +20,53 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     private float currentDistanceFromDestination;
     private float currentSpeed;
 
-    
+
     private void Start()
     {
-     UpdateManager.Register(this);
-     pathPoints = enemyPath.CheckPointsBezierPoints.ToArray();
-     currentDestinationPointIndex = pathPoints.Length-1;
-     transform.position = pathPoints[0];
-     ChooseNewDestinationPoint();
+        UpdateManager.Register(this);
+        pathPoints = enemyPath.CheckPointsBezierPoints.ToArray();
+        currentDestinationPointIndex = pathPoints.Length - 1;
+        transform.position = pathPoints[0];
+        ChooseNewDestinationPoint();
+    }
+
+    private void OnDisable()
+    {
+        UpdateManager.UnRegister(this);
     }
 
     public void OnUpdate()
     {
         currentDistanceFromDestination = (pathPoints[currentDestinationPointIndex] - transform.position).magnitude;
         currentSpeed = movementSpeed * Time.deltaTime;
-        if (currentSpeed >currentDistanceFromDestination )
+        if (currentSpeed > currentDistanceFromDestination)
         {
-            transform.position += currentDirection*currentDistanceFromDestination;
+            transform.position += currentDirection * currentDistanceFromDestination;
             ChooseNewDestinationPoint();
         }
         else
         {
             if (rotationTimer < rotationTime)
             {
-                  rotationTimer += Time.deltaTime;
-                  transform.forward = Vector3.Lerp(transform.forward, currentDirection, rotationTimer/rotationTime);
+                rotationTimer += Time.deltaTime;
+                transform.forward = Vector3.Lerp(transform.forward, currentDirection, rotationTimer / rotationTime);
             }
+
             transform.position += currentDirection * currentSpeed;
         }
-       
     }
 
     private void ChooseNewDestinationPoint()
-    {  
+    {
         currentDestinationPointIndex++;
         rotationTimer = 0;
-        if (currentDestinationPointIndex == pathPoints.Length) 
-            {
-                     currentDestinationPointIndex = 1;
-            }
-            currentDirection= (pathPoints[currentDestinationPointIndex] - pathPoints[currentDestinationPointIndex - 1]).normalized;
-          
+        if (currentDestinationPointIndex == pathPoints.Length)
+        {
+            currentDestinationPointIndex = 1;
+        }
+
+        currentDirection = (pathPoints[currentDestinationPointIndex] - pathPoints[currentDestinationPointIndex - 1])
+            .normalized;
     }
 
     public void Kill()
@@ -68,6 +74,3 @@ public class EnemyManager : MonoBehaviour, IUpdatable
         uiManager.UpdateEnemyCount();
     }
 }
-    
-
- 

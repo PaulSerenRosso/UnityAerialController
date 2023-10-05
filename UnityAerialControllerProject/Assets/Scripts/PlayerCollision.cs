@@ -10,8 +10,9 @@ public class PlayerCollision : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private float invulnerabilityTimer;
     [SerializeField] private Rigidbody rb;
+    [SerializeField] private float forceScale = 3750f;
 
-    private bool invulnerable = false;
+    private bool invulnerable;
     private void OnCollisionEnter(Collision other)
     {
         if (invulnerable) return;
