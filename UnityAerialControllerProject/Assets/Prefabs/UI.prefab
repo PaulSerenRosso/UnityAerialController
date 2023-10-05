@@ -2231,6 +2231,7 @@ MonoBehaviour:
   TimerText: {fileID: 1140733888818138954}
   lockTimerText: {fileID: 8114684050225850443}
   EnemyCountText: {fileID: 0}
+  totalTime: {fileID: 4446568442547282976}
   EnemyContainer: {fileID: 821158735441168584}
   enemyImagePrefab: {fileID: 6634543605112071351, guid: 321d4debe1135e54cbc0692029c6575a,
     type: 3}

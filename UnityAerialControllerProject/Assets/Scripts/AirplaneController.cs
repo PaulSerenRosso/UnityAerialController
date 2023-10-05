@@ -85,6 +85,7 @@ public class AirplaneController : MonoBehaviour
 
     private void HandleLight()
     {
+        if (!canMove) return;
         if (InputPlayerActions.Player.Light.IsPressed())
         {
             lightAirplane.SetActive(true);

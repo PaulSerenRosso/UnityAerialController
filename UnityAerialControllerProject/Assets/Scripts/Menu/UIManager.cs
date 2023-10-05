@@ -24,6 +24,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text TimerText;
     [SerializeField] private TMP_Text lockTimerText;
     [SerializeField] private TMP_Text EnemyCountText;
+    [SerializeField] private TMP_Text totalTime;
     [SerializeField] private GameObject EnemyContainer;
     [SerializeField] private GameObject enemyImagePrefab;
     
@@ -104,8 +105,17 @@ public class UIManager : MonoBehaviour
         
         HUDPanel.SetActive(false);
         EndPanel.SetActive(true);
+        
         Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+        
         EndTitle.text = win ? "You Won !" : "You Lost...";
+
+        var finalTimer = Time.timeSinceLevelLoad;
+        float min = finalTimer / 60;
+        float sec = finalTimer % 60;
+        totalTime.text = "Final Time : " + (int) min + ":" + sec.ToString("00.0");
+        
         EnemyCountText.text =
             win
                 ? "Enemies : " + (maxEnemyCount) + " / " + (maxEnemyCount)
