@@ -20,6 +20,7 @@ public class LevelManager : MonoBehaviour
     {
         airplane = Instantiate(playerPrefab, playerSpawn.position, playerSpawn.rotation);
         airplane.GetComponent<PlayerCollision>().uiManager = levelUI.GetComponent<UIManager>();
+        airplane.GetComponent<ShootingController>().uiManager = levelUI.GetComponent<UIManager>();
         camera = Instantiate(cameraFollower);
         airplane.GetComponent<AirplaneController>().mainCamera = camera.GetComponent<CameraFollower>();
         airplane.GetComponent<AirplaneController>().speedParticleContainer =

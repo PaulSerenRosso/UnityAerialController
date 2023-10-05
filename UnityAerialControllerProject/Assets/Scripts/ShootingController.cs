@@ -7,8 +7,9 @@ using UnityEngine;
 
 public class ShootingController : MonoBehaviour
 {
-    [SerializeField] private Transform ShootingPoint;
+    public UIManager uiManager;
     
+    [SerializeField] private Transform ShootingPoint;
     [SerializeField] private float KillTimer;
     [SerializeField] private float AimRadius;
     [SerializeField] private float AimDistance;
@@ -19,6 +20,7 @@ public class ShootingController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        uiManager.UpdateLockTimer(KillTimer - timer);
         ShootProcess();
         CheckKillTarget();
     }
@@ -27,17 +29,15 @@ public class ShootingController : MonoBehaviour
     {
         RaycastHit hit;
         Physics.SphereCast(ShootingPoint.position, AimRadius, ShootingPoint.forward, out hit, AimDistance);
-
+        
         if (!hit.collider && !target)
             return;
         
         if (target)
         {
-            if (!hit.collider || hit.distance > AimDistance)
+            if (!hit.collider.CompareTag("Enemy") || hit.distance > AimDistance)
             {
-                Debug.Log("target lost");
                 target = null;
-                timer = 0f;
                 return;
             }
             else if (hit.collider == target && hit.distance <= AimDistance)
@@ -48,9 +48,10 @@ public class ShootingController : MonoBehaviour
         }
         else if(hit.distance <= AimDistance && hit.collider.CompareTag("Enemy"))
         {
-            Debug.Log("target found");
+            uiManager.StartLockTimer(true);
             target = hit.collider;
         } 
+        ResetTimer();
     }
 
     private void CheckKillTarget()
@@ -59,7 +60,16 @@ public class ShootingController : MonoBehaviour
 
         target.gameObject.GetComponent<EnemyManager>().Kill();    
         target = null;
-        timer = 0f;
+        ResetTimer();
+    }
+    
+    private void ResetTimer()
+    {
+        if (!target)
+        {
+            timer = 0f;
+            uiManager.StartLockTimer(false);
+        }
     }
     
     private void OnDrawGizmos()

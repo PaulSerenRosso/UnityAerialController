@@ -22,12 +22,19 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private TMP_Text EndTitle;
     [SerializeField] private TMP_Text TimerText;
+    [SerializeField] private TMP_Text lockTimerText;
     [SerializeField] private TMP_Text EnemyCountText;
     [SerializeField] private GameObject EnemyContainer;
     [SerializeField] private GameObject enemyImagePrefab;
-
-    private int enemyCount;
     
+    private List<GameObject> enemyImages;
+    private int enemyCount;
+
+    private void Awake()
+    {
+        enemyImages = new List<GameObject>();
+    }
+
     void Update()
     {
         DisplayTimerText(Time.timeSinceLevelLoad);
@@ -44,9 +51,34 @@ public class UIManager : MonoBehaviour
     {
         var temp = Instantiate(enemyImagePrefab, EnemyContainer.transform);
         temp.GetComponent<Image>().color = enemyColor;
+        enemyImages.Add(temp);
         enemyCount = maxEnemyCount;
     }
 
+    public void RemoveEnemyFromList(Color c)
+    {
+        GameObject toRemove = new GameObject();
+        foreach (var image in enemyImages)
+        {
+            if (image.GetComponent<Image>().color == c)
+            {
+                toRemove = image;
+                break;
+            }
+        }
+
+        if (!toRemove)
+        {
+            enemyImages.Remove(toRemove);
+            Destroy(toRemove);
+        }
+        else
+        {
+            Debug.Log("Nothing to remove");
+        }
+        
+    }
+    
     public void UpdateEnemyCount()
     {
         enemyCount--;
@@ -79,7 +111,17 @@ public class UIManager : MonoBehaviour
                 ? "Enemies : " + (maxEnemyCount) + " / " + (maxEnemyCount)
                 : "Enemies : " + (maxEnemyCount - enemyCount) + " / " + (maxEnemyCount);
     }
+
+    public void StartLockTimer(bool start)
+    {
+        lockTimerText.gameObject.SetActive(start);
+        if (!start) lockTimerText.text = "";
+    }
     
+    public void UpdateLockTimer(float timer)
+    {
+        lockTimerText.text = "Locking :\n" + timer.ToString("00.0");
+    }
     public void Replay()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

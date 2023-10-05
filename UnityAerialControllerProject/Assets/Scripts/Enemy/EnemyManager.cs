@@ -80,6 +80,7 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     public void Kill()
     {
         uiManager.UpdateEnemyCount();
+        uiManager.RemoveEnemyFromList(enemyColor);
         gameObject.SetActive(false);
     }
 }

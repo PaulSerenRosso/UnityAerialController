@@ -405,9 +405,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f351181632c2d94cbe18f63baba91a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiManager: {fileID: 0}
   ShootingPoint: {fileID: 8497286096002152536}
   KillTimer: 5
-  AimRadius: 4
+  AimRadius: 0.4
   AimDistance: 75
 --- !u!114 &929199841228755420
 MonoBehaviour:
