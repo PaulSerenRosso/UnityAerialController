@@ -506,9 +506,11 @@ MonoBehaviour:
   speedParticleContainer: {fileID: 0}
   throttleIncrement: 0.2
   maxThrust: 6.25
-  responsiveness: 0.8
+  responsivenessX: 0.1
+  responsivenessY: 0.4
   rb: {fileID: 1025131148469697752}
   lightAirplane: {fileID: 4517183542908384463}
+  maxClamped: {x: 15, y: 40}
 --- !u!114 &593325363223746012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,7 +543,7 @@ MonoBehaviour:
   health: 3
   invulnerabilityTimer: 5
   rb: {fileID: 1025131148469697752}
-  forceScale: 750
+  forceScale: 250
 --- !u!136 &7796870759565899438
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1076,6 +1078,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4173328910135077499, guid: 1cc57418d57958c4f86409ab2ee1d427,
         type: 3}
+      propertyPath: m_MinVertexDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173328910135077499, guid: 1cc57418d57958c4f86409ab2ee1d427,
+        type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1237,6 +1244,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Trail (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173328910135077499, guid: 1cc57418d57958c4f86409ab2ee1d427,
+        type: 3}
+      propertyPath: m_MinVertexDistance
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4173328910135077499, guid: 1cc57418d57958c4f86409ab2ee1d427,
         type: 3}

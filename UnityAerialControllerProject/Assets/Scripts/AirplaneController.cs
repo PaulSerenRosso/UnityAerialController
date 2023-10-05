@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 public class AirplaneController : MonoBehaviour
 {
@@ -13,12 +14,15 @@ public class AirplaneController : MonoBehaviour
     private float throttleIncrement = 0.1f;
 
     [SerializeField] private float maxThrust = 200f;
-    [SerializeField] private float responsiveness = 10f;
+    [SerializeField] private float responsivenessX = 10f;
+    [SerializeField] private float responsivenessY = 10f;
     [SerializeField] private Rigidbody rb;
 
     [SerializeField] private GameObject lightAirplane;
+    [SerializeField] private Vector2 maxClamped;
 
-    private float responseModifier => (rb.mass / 10f) * responsiveness;
+    private float responseModifierX => (rb.mass / 10f) * responsivenessX;
+    private float responseModifierY => (rb.mass / 10f) * responsivenessY;
     private float throttle;
     private Vector2 deltaDirection;
     private bool isLocked;
@@ -45,8 +49,10 @@ public class AirplaneController : MonoBehaviour
         if (!canMove) return;
         rb.AddForce(transform.forward * maxThrust * throttle, ForceMode.Force);
         if (isLocked) return;
-        rb.AddTorque(-transform.right * deltaDirection.y * responseModifier, ForceMode.Force);
-        rb.AddTorque(-transform.forward * deltaDirection.x * responseModifier, ForceMode.Force);
+        var deltaX = Mathf.Clamp(deltaDirection.x, -maxClamped.x, maxClamped.x);
+        var deltaY = Mathf.Clamp(deltaDirection.y, -maxClamped.y, maxClamped.y);
+        rb.AddTorque(-transform.forward * deltaX * responseModifierX, ForceMode.Force);
+        rb.AddTorque(-transform.right * deltaY * responseModifierY, ForceMode.Force);
     }
 
     private void HandleInputs()
