@@ -23,7 +23,7 @@ public class LevelManager : MonoBehaviour
         airplane.GetComponent<AirplaneController>().speedParticleContainer =
             camera.GetComponent<CameraFollower>().speedParticle;
         camera.GetComponent<CameraFollower>().AirplaneTransform = airplane.transform;
-        levelUI.GetComponent<UIManager>().maxEnemyCount = enemyPrefabs.Length - 1;
+        levelUI.GetComponent<UIManager>().maxEnemyCount = enemyPrefabs.Length;
         levelUI.GetComponent<UIManager>().player = airplane;
         for (int i = 0; i < enemyPrefabs.Length; i++)
         {
