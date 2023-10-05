@@ -5,13 +5,13 @@ using UnityEngine;
 public class Cone : MonoBehaviour
 {
     private Mesh mesh;
-    private MeshRenderer meshRenderer;
+    protected MeshRenderer meshRenderer;
 
     private List<Vector3> vertices;
     private List<int> triangles;
 
     [SerializeField] private Material Material;
-    [SerializeField] private float height = 10.0f;
+    [SerializeField] protected float height = 10.0f;
     [SerializeField] private float radius = 5.0f;
     [SerializeField] private int segments = 7;
 
@@ -21,7 +21,7 @@ public class Cone : MonoBehaviour
     private float angleAmount = 0.0f;
 
 
-    private void Start()
+    protected virtual void Start()
     {
         gameObject.AddComponent<MeshFilter>();
         meshRenderer = gameObject.AddComponent<MeshRenderer>();
