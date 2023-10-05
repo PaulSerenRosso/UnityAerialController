@@ -47,6 +47,7 @@ public class AirplaneController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (deltaDirection == Vector2.zero) rb.angularVelocity = Vector3.zero;
         if (!canMove) return;
         rb.AddForce(transform.forward * maxThrust * throttle, ForceMode.Force);
         if (isLocked) return;
@@ -58,9 +59,9 @@ public class AirplaneController : MonoBehaviour
 
     private void HandleInputs()
     {
-        if (!canMove) return;
         deltaDirection = InputPlayerActions.Player.Direction.ReadValue<Vector2>();
-        if (deltaDirection == Vector2.zero) rb.angularVelocity = Vector3.zero;
+        
+        if (!canMove) return;
 
         if (InputPlayerActions.Player.Accelerate.IsPressed())
         {
