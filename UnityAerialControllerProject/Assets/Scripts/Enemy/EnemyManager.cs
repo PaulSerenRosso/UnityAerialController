@@ -19,6 +19,8 @@ public class EnemyManager : MonoBehaviour, IUpdatable
     private Vector3 currentDirection;
     private float currentDistanceFromDestination;
     private float currentSpeed;
+    [SerializeField] private MeshRenderer[] meshRenderers;
+    [SerializeField] private TrailRenderer trailRenderer;
 
 
     private void Start()
@@ -27,6 +29,12 @@ public class EnemyManager : MonoBehaviour, IUpdatable
         pathPoints = enemyPath.CheckPointsBezierPoints.ToArray();
         currentDestinationPointIndex = pathPoints.Length - 1;
         transform.position = pathPoints[0];
+        for (int i = 0; i < meshRenderers.Length; i++)
+        {
+            meshRenderers[i].material.color = enemyColor;
+        }
+
+        trailRenderer.startColor = enemyColor;
         ChooseNewDestinationPoint();
     }
 
